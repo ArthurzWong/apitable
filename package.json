@@ -126,17 +126,9 @@
   },
   "packageManager": "pnpm@8.6.12",
   "pnpm": {
-    "packageExtensions": {
-      "posix": {
-        "optionalDependencies": {
-          "node-gyp": "*"
-        }
-      }
-    },
-    "patchedDependencies": {
-      "mysql2@3.9.7": "patches/mysql2@3.9.7.patch"
-    },
-    "allowNonAppliedPatches": true
+    "overrides": {
+      "canvas": "file:stubs/canvas"
+    }
   },
   "dependencies": {
     "glob-parent": "5.1.2",

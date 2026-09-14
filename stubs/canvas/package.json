@@ -1,0 +1,7 @@
+{
+  "name": "canvas",
+  "version": "2.9.1",
+  "description": "Stub for the native canvas module (konva Node entry only). Not compilable on Vercel.",
+  "main": "index.js",
+  "license": "MIT"
+}
