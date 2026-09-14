@@ -19,7 +19,7 @@
     "prettier:fix": "npx prettier --write './{src,pages,utils}/**/*.{js,jsx,ts,tsx}' && eslint --fix --no-cache ./src ./pages"
   },
   "engines": {
-    "node": "16.15.0"
+    "node": "20.x"
   },
   "dependencies": {
     "@apitable/ai": "workspace:*",
