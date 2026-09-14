@@ -93,7 +93,7 @@ const nextConfig = {
     disableServerWebpackPlugin: false,
     disableClientWebpackPlugin: false
   },
-  distDir: 'web_build',
+  // distDir: default (.next) on Vercel
   output: 'standalone',
   experimental: {
     // runtime: 'nodejs', // 'node.js' (default) | experimental-edge
